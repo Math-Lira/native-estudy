@@ -4,10 +4,11 @@ import { Highlight } from "@components/Highlight";
 import { Button } from "@components/Button";
 import { Input } from "@components/Input";
 
-import { useNavigation } from "@react-navigation/native";
-import { useState } from "react";
 import { groupCreate } from "@storage/group/groupCreate";
 import { AppError } from "@utils/AppError";
+
+import { useNavigation } from "@react-navigation/native";
+import { useState } from "react";
 import { Alert } from "react-native";
 
 export function NewGroup() {
